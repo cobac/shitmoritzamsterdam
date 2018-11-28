@@ -8,10 +8,10 @@ function drawChart() {
   // actual area chart data
   var data = google.visualization.arrayToDataTable([
       ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
-      ['223 stations',100906,241700,331455],
-      ['+25 stations', 114474, 291142, 385743],
-      [' +50 stations', 134099, 332072, 399631],
-      [ '+1000 stations', 177848, 368415, 402869]
+      ['1257 stations',89212,116949,127441],
+      ['+25 stations', 90333, 121118, 129676],
+      [' +50 stations', 91470, 122067, 130057],
+      [ '+1000 stations', 96734, 124800, 130623]
       ]);
 
 var formatter = new google.visualization.NumberFormat({
@@ -103,10 +103,11 @@ formatter.format(data, 3);
     data = google.visualization.arrayToDataTable([
       
 ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
-      ['223 stations',100906, 140794, 89755],
-      ['+25 stations', 114474, 176668, 94601],
-      [' +50 stations', 134099, 197973, 67559],
-      [ '+1000 stations', 177848, 190567, 34456]
+       ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
+      ['1257 stations',89212,27737,10492],
+      ['+25 stations', 90333, 30785, 8588],
+      [' +50 stations', 91470, 30597, 7990],
+      [ '+1000 stations', 96734, 28066, 5823]
       ]);
  
 
@@ -128,10 +129,11 @@ button1.onclick = function() {
   button2.classList.remove("disabled");
   data = google.visualization.arrayToDataTable([
   ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
-      ['223 stations',100906,241700,331455],
-      ['+25 stations', 114474, 291142, 385743],
-      [' +50 stations', 134099, 332072, 399631],
-      [ '+1000 stations', 177848, 368415, 402869]
+      ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
+      ['1257 stations',89212,116949,127441],
+      ['+25 stations', 90333, 121118, 129676],
+      [' +50 stations', 91470, 122067, 130057],
+      [ '+1000 stations', 96734, 124800, 130623]
       ]);
 
 var formatter = new google.visualization.NumberFormat({
