@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+body {
+  font-family: "Questrial", Arial;
+  background-color: #fff;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 13px;
+}
+
+#chart {
+  width: 90%;
+  height: 95%;
+  position: absolute;
+  left: 5%;
+}
+
+#btn-container {
+  text-align: center
+}
+
+.btn-blue {
+  position: relative;
+  display: inline-block;
+  font-size: 100%;
+  background-color: #337ab7;
+  color: #fff !important;
+  padding: 5px 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-blue:hover {
+  background-color: #173652;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.disabled, .disabled:hover {
+  cursor: not-allowed !important;
+  opacity: 0.6;
+  background-color: #337ab7;
+    color: #fff !important;
+}
+
+/*#source {
+  width: 86%;
+  position: relative;
+  text-align: right;
+}
+
+#source a {
+  font-size: 11px;
+  color: #c8c8c8 !important;
+  }
+
+#source a:hover {
+  color: #969696 !important;
+}*/
