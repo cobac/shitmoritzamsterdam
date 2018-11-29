@@ -29,7 +29,8 @@ formatter.format(data, 3);
     title: '',
 
     backgroundColor: 'transparent',
-    colors: ['#a80000', '#70A800', '#004ABA', '#365884', '#AAC38A', '#4C0073'],
+     //        5min      10min        15min
+    colors: ['#4CE600', '#FFAA00', '#E60000', '#365884', '#AAC38A', '#4C0073'],
     fontName: 'Questrial',
 
     chartArea: {
