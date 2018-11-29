@@ -103,7 +103,7 @@ formatter.format(data, 3);
     button1.classList.remove("disabled");
     data = google.visualization.arrayToDataTable([
       
-['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
+['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
       ['1257 stations',89212,27737,10492],
       ['+25 stations', 90333, 30785, 8588],
       [' +50 stations', 91470, 30597, 7990],
