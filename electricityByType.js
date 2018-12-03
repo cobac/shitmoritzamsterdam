@@ -128,7 +128,7 @@ button1.onclick = function() {
   button1.classList.add("disabled");
   button2.classList.remove("disabled");
   data = google.visualization.arrayToDataTable([
-      ['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
+      ['Number of stations', '0-5 min service area', '0-10 min service area ', '0-15 min service area'],
       ['1257 stations',89212,116949,127441],
       ['+25 stations', 90333, 121118, 129676],
       [' +50 stations', 91470, 122067, 130057],
